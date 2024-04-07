@@ -30,8 +30,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['8000-idehed-djangotesty-u7idq6gx2t1.ws-eu110.gitpod.io','.herokuapp.com']
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-idehed-djangotesty-u7idq6gx2t1.ws-eu110.gitpod.io',
-    'https://idehed-djangotesty-u7idq6gx2t1.ws-eu110.herokuapp.com',
+    "https://*.gitpod.io",
+    "https://*.herokuapp.com",
 ]
 # Application definition
 
